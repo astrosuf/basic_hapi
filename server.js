@@ -22,7 +22,7 @@ launch()
 server.route ({
   method: 'GET',
   path:'/',
-  handler: (request, reply) => {
+  handler: (request, h) => {
     return "Hello World"
   }
 })
