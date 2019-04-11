@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "Working on a basic hapi server to start the journey of building node apis ",
   "main": "index.js",
-  "scripts":{
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
-    "type":"git",
-    "url":"https://github.com/astrosuf/basic_hapi.git"
+    "type": "git",
+    "url": "https://github.com/astrosuf/basic_hapi.git"
   },
   "author": "Sufiyaan Mitha",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "hapi": "^18.1.0"
+  }
 }
